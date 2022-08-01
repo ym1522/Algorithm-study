@@ -52,7 +52,7 @@ Backjoon, *코딩마스터스 (예정)*
 
 | 난이도 | 문제 | 출처 | 김수빈 | 김유민 | 김인구 | 송병섭 | 유현주 |   
 |--|--|--|--|--|--|--|--|
-|b-5|[1271](https://www.acmicpc.net/problem/1271)  | backjoon |  | 💯 |  | 💯 |  |
+|b-5|[1271](https://www.acmicpc.net/problem/1271)  | backjoon |  | 💯 |  | 💯 | 💯 |
 |b-5|[4101](https://www.acmicpc.net/problem/4101)  | backjoon |  | 💯 |  | 💯 |  |
 |b-5|[4999](https://www.acmicpc.net/problem/4999)  | backjoon |  | 💯 |  |  |  |
 |b-5|[10430](https://www.acmicpc.net/problem/10430)  | backjoon |  | 💯 |  |  |  |
