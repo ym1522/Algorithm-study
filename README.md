@@ -57,9 +57,9 @@ Backjoon, *코딩마스터스 (예정)*
 |b-5|[4999](https://www.acmicpc.net/problem/4999)  | backjoon | 💯 | 💯 | 💯 | 💯 | 💯 |
 |b-5|[10430](https://www.acmicpc.net/problem/10430)  | backjoon | 💯 | 💯 | 💯 | 💯 | 💯 |
 |b-5|[8393](https://www.acmicpc.net/problem/8393)  | backjoon | 💯 | 💯 | 💯 | 💯 | 💯 |
-|b-4|[10768](https://www.acmicpc.net/problem/10768)  | backjoon | 💯 | 💯 | 💯 |  | 💯 |
-|b-4|[10808](https://www.acmicpc.net/problem/10808)  | backjoon |  | 💯 |  |  | 💯 |
-|b-4|[2440](https://www.acmicpc.net/problem/2440)  | backjoon |  | 💯 |  |  | 💯 |
+|b-4|[10768](https://www.acmicpc.net/problem/10768)  | backjoon | 💯 | 💯 | 💯 | 💯 | 💯 |
+|b-4|[10808](https://www.acmicpc.net/problem/10808)  | backjoon |  | 💯 |  | 💯 | 💯 |
+|b-4|[2440](https://www.acmicpc.net/problem/2440)  | backjoon |  | 💯 |  | 💯 | 💯 |
 |b-4|[1264](https://www.acmicpc.net/problem/1264)  | backjoon |  | 💯 |  |  |  |
 |b-4|[2439](https://www.acmicpc.net/problem/2439)  | backjoon |  | 💯 |  |  |  |
 |b-4|[3046](https://www.acmicpc.net/problem/3046)  | backjoon |  | 💯 |  |  |  |
