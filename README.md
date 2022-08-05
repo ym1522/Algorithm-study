@@ -33,6 +33,9 @@ Backjoon
     | 해결 | 💯 |
     | 포기 | ❌ |
 
+- 다른 사람 코드 리뷰하고 Approve (Notion 공지 확인)  
+    별다른 comment 없으면 Approve만  
+    
 - 물어보고 싶은 건, [**issues**](https://github.com/AIVLE-School-2-Study/Algorithm-study/issues) 페이지에 질문 남겨주세요 (집단 지성 💪💪)
     
     **Label 선택**  
