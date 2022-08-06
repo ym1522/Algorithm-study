@@ -148,8 +148,8 @@ Backjoon
 |b-3|[2588](https://www.acmicpc.net/problem/2588)  | backjoon |  |  |  |💯|  |  |
 |b-3|[2914](https://www.acmicpc.net/problem/2914)  | backjoon |  |  |  |💯|  |  |
 |b-2|[1152](https://www.acmicpc.net/problem/1152)  | backjoon |  |  |  |💯|  |  |
-|b-2|[1297](https://www.acmicpc.net/problem/1297)  | backjoon |  |  |  |  |  |  |
-|b-1|[1110](https://www.acmicpc.net/problem/1110)  | backjoon |  |  |  |  |  |  |
+|b-2|[1297](https://www.acmicpc.net/problem/1297)  | backjoon |  |  |  |💯|  |  |
+|b-1|[1110](https://www.acmicpc.net/problem/1110)  | backjoon |  |  |  |💯|  |  |
 |b-1|[1157](https://www.acmicpc.net/problem/1157)  | backjoon |  |  |  |  |  |  |
 |b-1|[11653](https://www.acmicpc.net/problem/11653)  | backjoon |  |  |  | |  |  |
 |b-1|[10989](https://www.acmicpc.net/problem/10989)  | backjoon |  |  |  | |  |  |
