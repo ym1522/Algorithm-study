@@ -10,6 +10,4 @@ for i in range(26):
 for alphabet in S:
     count[ord(alphabet) - 97] += 1
 
-# 대괄호 없이 출력
-count_str = str(count)[1:-1]
-print(count_str)
+print(*count)
