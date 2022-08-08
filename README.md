@@ -116,8 +116,8 @@ Backjoon
 |b-1|[1157](https://www.acmicpc.net/problem/1157)  | backjoon |💯|  |  |  |  |
 |b-1|[11653](https://www.acmicpc.net/problem/11653)  | backjoon |💯|  |  | |  |
 |b-1|[10989](https://www.acmicpc.net/problem/10989)  | backjoon |💯|  |  | |  |
-|b-1|[2163](https://www.acmicpc.net/problem/2163)  | backjoon |  |  |  |  |  |
-|b-1|[1259](https://www.acmicpc.net/problem/1259)  | backjoon |  |  |  |  |  |
+|b-1|[2163](https://www.acmicpc.net/problem/2163)  | backjoon |💯|  |  |  |  |
+|b-1|[1259](https://www.acmicpc.net/problem/1259)  | backjoon |💯|  |  |  |  |
 
 </div>
 </details>
