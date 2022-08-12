@@ -1,5 +1,5 @@
 from sys import stdin
-n=list(stdin.readline())
+n=list(stdin.readline().rstrip())  # .rstrip() \n을 없애줌
 for i in range(len(n)):
     if n[i]=='\'':
         n[i]=('\\\'')
@@ -8,5 +8,4 @@ for i in range(len(n)):
     elif n[i]=='\\':
         n[i]=('\\\\')
 n="".join(n)
-n=n.strip()  # \n을 없앰. \n이 있는거 때문에 고생많이 함...
 print(n)
