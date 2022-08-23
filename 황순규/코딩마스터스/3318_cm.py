@@ -12,9 +12,7 @@ for i in range(1, b):
     if b % i == 0:
         d_b.append(i)
 
-if sum(d_a) == sum(d_b):
+if sum(d_a) == b and sum(d_b) == a:
     print('YES')
 else:
     print('NO')
-    
-print(sum(d_a), sum(d_b))
