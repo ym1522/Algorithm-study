@@ -1,7 +1,6 @@
 from sys import stdin
 
 n,m=map(int,stdin.readline().split())
-'''a=[list(map(int,stdin.readline().split())) for _ in range(n)]'''
 a=[[0]*100 for i in range(100)]
 for i in range(n):
     a[i]=list(map(int,stdin.readline().split()))
