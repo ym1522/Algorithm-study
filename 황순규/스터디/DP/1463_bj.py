@@ -1,3 +1,4 @@
+########### 못 풀음
 import sys
 
 X = int(sys.stdin.readline())
