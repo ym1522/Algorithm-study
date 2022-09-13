@@ -1,5 +1,5 @@
 import sys
-sys.setrecursionlimit(10**6)
+
 def DFS(graph, v, visited):
     visited[v] = True
     
@@ -10,15 +10,14 @@ def DFS(graph, v, visited):
 coms = int(sys.stdin.readline())
 N = int(sys.stdin.readline())
 
-all_coms = []
-vir = []
-n_vir = []
-
 all_coms = [[] for i in range(coms + 1)]
 visited = [False] * (coms + 1)
+
 for i in range(N):
     a, b = map(int, sys.stdin.readline().split())
     all_coms[a].append(b)
+    all_coms[b].append(a)
+
 DFS(all_coms, 1, visited)
 
 cnt = 0
