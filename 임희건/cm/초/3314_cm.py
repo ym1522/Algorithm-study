@@ -21,3 +21,28 @@
 
 # 출력값 설명
 # 필요한 연산의 최소 횟수를 출력합니다.
+
+import sys
+
+N = int(sys.stdin.readline())    # 통 N개
+a_i = list(map(int, sys.stdin.readline().split()))   # 사탕 a_i개
+
+count = 0    # 연산 횟수
+a_i_avg = sum(a_i) // N    # 각 통에 담길 목표 사탕 개수
+
+# 임의의 통에 있는 사탕을 하나 먹는다
+while sum(a_i) != a_i_avg * N:
+    tmp = a_i.index(max(a_i))
+    a_i[tmp] -= 1
+    count += 1
+
+# 임의의 통에 있는 사탕을 다른 통으로 옮긴다
+while max(a_i) != min(a_i):
+    tmp_max = a_i.index(max(a_i))
+    tmp_min = a_i.index(min(a_i))
+    a_i[tmp_max] -= 1
+    a_i[tmp_min] += 1
+    count += 1
+
+# 연산 횟수 출력
+print(count)
