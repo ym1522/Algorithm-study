@@ -1,5 +1,5 @@
 from sys import stdin
-
+# list하면 시간초과
 n, m = map(int, stdin.readline().split())
 s = set()
 check=0
