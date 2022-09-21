@@ -29,3 +29,34 @@
 
 # 출력값 설명
 # 검정색 직사각형의 개수를 출력하세요.
+
+import sys
+import numpy as np
+
+N, M = map(int, sys.stdin.readline().split())    # 판 크기 입력
+board = []    # 판 선언
+count = 0    # 개수 선언
+
+# 판 상태 입력
+for _ in range(N):
+    tmp = list(sys.stdin.readline())
+    tmp = tmp[:-1]
+    board.append(tmp)
+
+# 확인할 직사각형 형태
+for i in range(1, N + 1):
+    for j in range(1, M + 1):
+
+        # 직사각형 여부 확인
+        for k in range(N - i + 1):
+            for l in range(M - j + 1):
+                tmp2 = []
+
+                for m in range(k, k + i):
+                    tmp2 = tmp2 + board[m][l : l + j]
+
+                if not '0' in tmp2:
+                    count += 1
+
+# 개수 출력
+print(count)
