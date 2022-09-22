@@ -20,13 +20,10 @@
 # 출력값 설명
 # 초항이 1인 개수 수열의 N번째 항을 출력하세요.
 
-# 풀이에 참고한 자료
-# https://ponyozzang.tistory.com/703
-
 import sys
 
 N = int(sys.stdin.readline())    # N번째 입력
-num = ['1']    # 초기 수열
+num = [1]    # 초기 수열
 
 # N번째 수열 생성
 if N > 1:
@@ -34,13 +31,11 @@ if N > 1:
         tmp = []
 
         for j in range(1, 21):
-            if str(j) in num:
-                tmp.append(str(j))
-                tmp.append(str(num.count(str(j))))
+            if j in num:
+                tmp.append(j)
+                tmp.append(num.count(j))
 
         num = tmp.copy()
 
-n = ''.join(num)
-
 # 수열 출력
-print(n)
+print(*num, sep = '')

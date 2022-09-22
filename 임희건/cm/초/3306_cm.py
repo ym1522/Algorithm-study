@@ -37,3 +37,21 @@
 # N번째 차례가 되었을 때 해야하는 행동을 출력합니다.
 # 숫자를 외쳐야하는 경우, 해당 수를 출력합니다.
 # 박수를 쳐야하는 경우, "clap"을 큰따옴표를 제외하고 공백없이 출력합니다.
+
+import sys
+
+N = int(sys.stdin.readline())    # 차례 입력
+
+check = True    # 소수 여부
+
+# 소수 여부 판단
+for i in range(2, N // 2 + 1):
+    if N % i == 0:
+        check = False
+
+# 결과 출력
+if check and N != 1:
+    print('clap')
+
+else:
+    print(N)
