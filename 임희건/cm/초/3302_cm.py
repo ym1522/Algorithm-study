@@ -28,3 +28,18 @@
 
 # 출력값 설명
 # N개의 정수를 공백으로 구분하여 출력합니다. i번째 정수는 i번째 사람이 내야 할 금액을 의미합니다.
+
+import sys
+
+N, M = map(int, sys.stdin.readline().split())
+money = [0] * N
+
+for _ in range(M):
+    c, n = map(int, sys.stdin.readline().split())
+    i = list(map(int, sys.stdin.readline().split()))
+
+    for a in i:
+        one = int(c / n)
+        money[a - 1] += one
+
+print(*money)
