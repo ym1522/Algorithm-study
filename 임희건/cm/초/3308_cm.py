@@ -18,3 +18,18 @@
 
 # 출력값 설명
 # N초 동안 또리가 그리는 자취 넓이의 최대값을 출력하세요.
+
+import sys
+
+N = int(sys.stdin.readline())    # 시간 입력
+area = 0    # 넓이 초기값
+
+# 넓이 비교
+for i in range(1, N):
+    a = i * (N // 2 - i)    # 원점으로 돌아와야 넓이 계산 가능
+
+    if area < a:
+        area = a
+
+# 결과 출력
+print(area)
