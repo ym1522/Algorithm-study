@@ -20,23 +20,26 @@
 # 위 조건을 만족하게 말뚝을 박을 수 없다면 -1을 출력합니다.
 # 그렇지 않다면 가영이가 박을 수 있는 말뚝 개수의 최솟값과 최댓값을 공백으로 구분하여 출력합니다.
 
-# 완벽히 해결 못 했음;
-
 import sys
 import math
 
 a, b, D, d = map(int, sys.stdin.readline().split())
 
-a_min = math.ceil(a / D)
-b_min = math.ceil(b / D)
-a_max = math.floor(a / d)
-b_max = math.floor(b / d)
+if D == d:
+    if a % d == 0 and b % d == 0:
+        pile = int((a + b) * 2 / d)
+        
+        print(pile, pile)
 
-if a // a_min >= a // a_max and b // b_min >= b // b_max and d < a and d < b and D < a and D < b:
-    pile_min = 2 * (a_min - 1) + 2 * (b_min - 1) + 4
-    pile_max = 2 * (a_max - 1) + 2 * (b_max - 1) + 4
-
-    print(pile_min, pile_max)
+    else:
+        print(-1)
 
 else:
-    print(-1)
+    if d <= a and d <= b and D <= a and d <= b:
+        pile_min = (math.ceil(a / D) + math.ceil(b / D) - 2) * 2 + 4
+        pile_max = (math.floor(a / d) + math.floor(b / d) - 2) * 2 + 4
+
+        print(pile_min, pile_max)
+
+    else:
+        print(-1)
