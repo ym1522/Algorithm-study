@@ -54,9 +54,6 @@ for _ in range(N):
 check[A - 1] = True
 
 for i in range(M):
-    a = X[i] - 1
-    b = Y[i] - 1
-
     if check[X[i] - 1]:
         check[Y[i] - 1] = True
 
