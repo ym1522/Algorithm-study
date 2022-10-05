@@ -9,5 +9,3 @@ while num + temp < S:
     num += temp + 1
     temp += 1
 print(temp)
-
-#### 
