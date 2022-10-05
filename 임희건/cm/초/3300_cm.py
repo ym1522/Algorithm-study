@@ -34,18 +34,22 @@ import sys
 
 k = int(sys.stdin.readline())
 F = [1, 3, 5, 17, 257, 65537]
-F2 = []
-check = "NO"
 
-for i in range(6):
-    for j in range(i, 6):
-        F2.append(F[i] * F[j])
+while k % 2 == 0:
+    k = k // 2
 
-for a in F2:
-    if k % a == 0:
-        tmp = k // a
+while k != 1:
+    a = k
 
-        if (tmp & (tmp - 1)) == 0:
-            check = "YES"
+    for i in (F):
+        if k % i == 0:
+            k = k // i
 
-print(check)
+    if a == k:
+        break
+
+if k == 1:
+    print("YES")
+
+else:
+    print("NO")
