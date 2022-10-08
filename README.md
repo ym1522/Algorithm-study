@@ -1,12 +1,9 @@
 
 # **AIVLE Algorithm Study**
 
-
 ## **문제 출처**  
 Backjoon, Coding Masters, Programmers, Leetcode    
 
-
-**문제 출처**  
 ## **규칙**  
 
 - 하루에 1 commit 이상 (주말 자유 업로드)   
