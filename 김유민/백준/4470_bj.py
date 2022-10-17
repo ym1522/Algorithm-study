@@ -2,6 +2,7 @@
 # 메모리: 30840KB, 시간: 68ms
 
 import sys
+
 input = sys.stdin.readline
 n = int(input())
 arr = []
