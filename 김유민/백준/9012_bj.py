@@ -18,3 +18,4 @@ for i in range(n):
             
     if len(check)!=0: flag='NO'                 # 스택에 왼쪽 괄호가 남아있는 경우 짝이 맞지 않는다는 의미이므로 flag=NO
     print(flag)
+    
